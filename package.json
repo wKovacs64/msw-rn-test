@@ -1,0 +1,38 @@
+{
+  "name": "msw-rn-test",
+  "version": "0.0.1",
+  "description": "React Native and MSW experiment",
+  "main": "image.test.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "private": true,
+  "eslintConfig": {
+    "extends": "@react-native-community",
+    "env": {
+      "jest/globals": true
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "dependencies": {
+    "@babel/core": "7.12.10",
+    "metro-react-native-babel-preset": "0.64.0",
+    "react": "16.13.1",
+    "react-native": "0.63.4"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "2.0.0",
+    "@testing-library/react-native": "7.1.0",
+    "babel-jest": "26.6.3",
+    "eslint": "7.15.0",
+    "jest": "26.6.3",
+    "msw": "0.24.2",
+    "node-fetch": "2.6.1",
+    "prettier": "2.2.1",
+    "react-test-renderer": "16.13.1"
+  }
+}
